@@ -1,0 +1,9 @@
+name: auto-close-lock
+description: Automatically closes and locks issues and pull requests
+author: dinkypumpkin (inspired by roots/issue-closer-action)
+inputs:
+  repo-token:
+    description: GitHub token
+runs:
+  using: node12
+  main: dist/index.js

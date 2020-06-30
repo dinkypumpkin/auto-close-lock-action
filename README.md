@@ -1,1 +1,1 @@
-# auto-close-lock
+# auto-close-lock-action
